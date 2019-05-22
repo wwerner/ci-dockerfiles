@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run: chmod +x build.sh
+      - run: for d in `ls -d */`; do ./build.sh -c $d; done
