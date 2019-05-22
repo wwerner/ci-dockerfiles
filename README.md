@@ -4,6 +4,7 @@ Currently, I have some repos containing only one dockerfile. I plan to collect t
 
 Built using https://circleci.com and pushed to https://hub.docker.com.
 
-TODO: Generate doc from sub folders
-TODO: Describe build
-TODO: Try w/ github package registry
+- TODO: Tagging/Versioning solution
+- TODO: Generate doc from sub folders
+- TODO: Describe build
+- TODO: Try w/ github package registry
