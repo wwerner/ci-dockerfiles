@@ -2,10 +2,14 @@ version: 2
 jobs:
   build:
     docker:
+      # We just need to use any circleci stock image to get access to 
+      # their docker hosts; Go is as good as any
       - image: circleci/golang:latest
 
     steps:
       - checkout
       - setup_remote_docker
       - run: chmod +x build.sh
-      - run: for d in `ls -d */`; do ./build.sh -c $d; done
+      # Call build.sh for every sub folder of the project root;
+      # remove trailing slashes in the loop
+      - run: for d in `ls -d */`; do ./build.sh -c ${d%/}; done
