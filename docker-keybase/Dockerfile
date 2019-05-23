@@ -23,6 +23,8 @@ RUN apt-get update \
     libappindicator1 \
     gnome-icon-theme \
     libappindicator-dev \
+    procps \
+    lsof \
   && curl -O https://prerelease.keybase.io/keybase_amd64.deb \
   && dpkg -i keybase_amd64.deb \
   && rm keybase_amd64.deb \
