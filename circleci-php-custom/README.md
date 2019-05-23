@@ -1,3 +1,9 @@
+
+[![circleci-php-custom - Stars](https://img.shields.io/docker/stars/wernerw/circleci-php-custom.svg)](https://hub.docker.com/r/wernerw/circleci-php-custom/)
+[![circleci-php-custom - Pulls](https://img.shields.io/docker/pulls/wernerw/circleci-php-custom.svg)](https://hub.docker.com/r/wernerw/circleci-php-custom/)
+[![circleci-php-custom - Size](https://img.shields.io/microbadger/image-size/wernerw/circleci-php-custom.svg)](https://microbadger.com/images/wernerw/circleci-php-custom)
+[![circleci-php-custom - Layers](https://img.shields.io/microbadger/layers/wernerw/circleci-php-custom.svg)](https://microbadger.com/images/wernerw/circleci-php-custom)
+
 ## circleci-php-custom
 
 CircleCI PHP build image w/ additional extensions
