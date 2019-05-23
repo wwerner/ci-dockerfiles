@@ -7,7 +7,7 @@ Official GraalVM image w/ the following additions
 
 In a multistage build, you can use this image as an intermediate step to build a native image.
 
-Example:
+Example `Dockerfile`:
 ```
 # Stage 1: Build application jar
 FROM gradle:5.4.1-jdk11-slim as builder
