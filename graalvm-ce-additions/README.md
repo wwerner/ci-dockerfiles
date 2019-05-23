@@ -1,3 +1,8 @@
+[![graalvm-ce-additions - Stars](https://img.shields.io/docker/stars/wernerw/graalvm-ce-additions.svg)](https://hub.docker.com/r/wernerw/graalvm-ce-additions/)
+[![graalvm-ce-additions - Pulls](https://img.shields.io/docker/pulls/wernerw/graalvm-ce-additions.svg)](https://hub.docker.com/r/wernerw/graalvm-ce-additions/)
+[![graalvm-ce-additions - Size](https://img.shields.io/microbadger/image-size/wernerw/graalvm-ce-additions.svg)](https://microbadger.com/images/wernerw/graalvm-ce-additions)
+[![graalvm-ce-additions - Layers](https://img.shields.io/microbadger/layers/wernerw/graalvm-ce-additions.svg)](https://microbadger.com/images/wernerw/graalvm-ce-additions)
+
 ## graalvm-ce-additions
 
 Official GraalVM image w/ the following additions

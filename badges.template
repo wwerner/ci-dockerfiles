@@ -1,0 +1,5 @@
+
+[![$REPO - Stars](https://img.shields.io/docker/stars/wernerw/$REPO.svg)](https://hub.docker.com/r/wernerw/$REPO/)
+[![$REPO - Pulls](https://img.shields.io/docker/pulls/wernerw/$REPO.svg)](https://hub.docker.com/r/wernerw/$REPO/)
+[![$REPO - Size](https://img.shields.io/microbadger/image-size/wernerw/$REPO.svg)](https://microbadger.com/images/wernerw/$REPO)
+[![$REPO - Layers](https://img.shields.io/microbadger/layers/wernerw/$REPO.svg)](https://microbadger.com/images/wernerw/$REPO)

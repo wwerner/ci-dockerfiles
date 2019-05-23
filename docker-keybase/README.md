@@ -1,9 +1,8 @@
 
-[![Docker Build](https://img.shields.io/docker/build/wernerw/docker-keybase.svg)](https://hub.docker.com/r/wernerw/docker-keybase/builds/)
-[![Docker Stars](https://img.shields.io/docker/stars/wernerw/docker-keybase.svg)](https://hub.docker.com/r/wernerw/docker-keybase/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/wernerw/docker-keybase.svg)](https://hub.docker.com/r/wernerw/docker-keybase/)
-[![Image Size](https://img.shields.io/microbadger/image-size/wernerw/docker-keybase.svg)](https://microbadger.com/images/wernerw/docker-keybase)
-[![Image Layers](https://img.shields.io/microbadger/layers/wernerw/docker-keybase.svg)](https://microbadger.com/images/wernerw/docker-keybase)
+[![docker-keybase - Stars](https://img.shields.io/docker/stars/wernerw/docker-keybase.svg)](https://hub.docker.com/r/wernerw/docker-keybase/)
+[![docker-keybase - Pulls](https://img.shields.io/docker/pulls/wernerw/docker-keybase.svg)](https://hub.docker.com/r/wernerw/docker-keybase/)
+[![docker-keybase - Size](https://img.shields.io/microbadger/image-size/wernerw/docker-keybase.svg)](https://microbadger.com/images/wernerw/docker-keybase)
+[![docker-keybase - Layers](https://img.shields.io/microbadger/layers/wernerw/docker-keybase.svg)](https://microbadger.com/images/wernerw/docker-keybase)
 
 
 ## docker-keybase 
