@@ -61,5 +61,5 @@ export tags=$(cat tags | awk -v image="$opt_container" -v user="$DOCKER_USER" '{
 docker build . $tags
 
 while read t; do
-  docker push $DOCKER_USER/$container:$t
+  docker push $DOCKER_USER/$opt_container:$t
 done <tags
