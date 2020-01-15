@@ -15,6 +15,11 @@ RUN apt-get update \
     fuse \
     git-core \
     psmisc \
+    libasound2 \
+    libnss3 \
+    libxss1 \
+    libxtst6 \
+    libgtk-3-0 \
     libgconf-2-4 \
     libgtk2.0-0 \
     libunwind8 \
