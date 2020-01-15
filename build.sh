@@ -59,4 +59,7 @@ echo $DOCKER_PASS | docker login --username $DOCKER_USER --password-stdin
 cd $opt_container
 export tags=$(cat tags | awk -v image="$opt_container" -v user="$DOCKER_USER" '{print "-t " user "/" image ":" $1}' ORS=' ')
 docker build . $tags
-# docker push $image
+
+while read t; do
+  docker push $DOCKER_USER/$container:$t
+done <tags
