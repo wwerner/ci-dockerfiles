@@ -6,7 +6,7 @@
 
 ## circleci-php-custom
 
-CircleCI PHP build image w/ additional extensions
+CircleCI PHP build image w/ additional extensions & Node
 * PHP Modules
     * `iconv`
     * `gd`
