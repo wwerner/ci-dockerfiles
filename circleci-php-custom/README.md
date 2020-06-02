@@ -20,7 +20,9 @@ CircleCI PHP build image w/ additional extensions & Node
     * `libfreetype6-dev`
     * `libjpeg62-turbo-dev`
     * `libpng-dev`
-    * `zlib1g-dev `
+    * `zlib1g-dev`
+* Additional Tools
+    * `node`
 
 
 ### Usage Example
