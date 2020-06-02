@@ -1,4 +1,4 @@
-FROM circleci/php:7.3-node-browsers
+FROM circleci/php:7.4-node-browsers
 
 RUN sudo apt-get update && \
     sudo apt-get install -y \
